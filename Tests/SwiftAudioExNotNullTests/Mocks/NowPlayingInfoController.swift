@@ -9,7 +9,7 @@
 import Foundation
 import MediaPlayer
 
-@testable import SwiftAudioEx
+@testable import SwiftAudioExNotNull
 
 class NowPlayingInfoController_Mock: NowPlayingInfoControllerProtocol {
     var info: [String: Any] = [:]

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftAudioEx
+import SwiftAudioExNotNull
 
 
 class QueueViewController: UIViewController {

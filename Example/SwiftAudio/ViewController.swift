@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftAudioEx
+import SwiftAudioExNotNull
 import AVFoundation
 import MediaPlayer
 

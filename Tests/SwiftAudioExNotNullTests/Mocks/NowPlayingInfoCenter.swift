@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 
-@testable import SwiftAudioEx
+@testable import SwiftAudioExNotNull
 
 class NowPlayingInfoCenter_Mock: NowPlayingInfoCenter {
     

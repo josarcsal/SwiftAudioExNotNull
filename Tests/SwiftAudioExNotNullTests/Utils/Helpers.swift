@@ -1,7 +1,7 @@
 import Foundation
 import XCTest
 
-@testable import SwiftAudioEx
+@testable import SwiftAudioExNotNull
 
 extension XCTestCase {
     func waitForSeek(_ audioPlayer: AudioPlayer, to time: Double) {

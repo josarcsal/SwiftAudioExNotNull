@@ -1,6 +1,6 @@
 import XCTest
 import AVFoundation
-@testable import SwiftAudioEx
+@testable import SwiftAudioExNotNull
 
 class AVPlayerTimeObserverTests: XCTestCase {
 

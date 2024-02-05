@@ -17,7 +17,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		9B1D5E2027C76F6F004CA883 /* SwiftAudioEx in Frameworks */ = {isa = PBXBuildFile; productRef = 9B1D5E1F27C76F6F004CA883 /* SwiftAudioEx */; };
+		9B1D5E2027C76F6F004CA883 /* SwiftAudioExNotNull in Frameworks */ = {isa = PBXBuildFile; productRef = 9B1D5E1F27C76F6F004CA883 /* SwiftAudioExNotNull */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9B1D5E1C27C76F49004CA883 /* SwiftAudioEx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftAudioEx; path = ..; sourceTree = "<group>"; };
+		9B1D5E1C27C76F49004CA883 /* SwiftAudioExNotNull */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftAudioExNotNull; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1D5E2027C76F6F004CA883 /* SwiftAudioEx in Frameworks */,
+				9B1D5E2027C76F6F004CA883 /* SwiftAudioExNotNull in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		9B05AA2F2660276400C7A389 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B1D5E1C27C76F49004CA883 /* SwiftAudioEx */,
+				9B1D5E1C27C76F49004CA883 /* SwiftAudioExNotNull */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 			);
 			name = SwiftAudio_Example;
 			packageProductDependencies = (
-				9B1D5E1F27C76F6F004CA883 /* SwiftAudioEx */,
+				9B1D5E1F27C76F6F004CA883 /* SwiftAudioExNotNull */,
 			);
 			productName = SwiftAudio;
 			productReference = 607FACD01AFB9204008FA782 /* SwiftAudio_Example.app */;
@@ -380,9 +380,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B1D5E1F27C76F6F004CA883 /* SwiftAudioEx */ = {
+		9B1D5E1F27C76F6F004CA883 /* SwiftAudioExNotNull */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SwiftAudioEx;
+			productName = SwiftAudioExNotNull;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

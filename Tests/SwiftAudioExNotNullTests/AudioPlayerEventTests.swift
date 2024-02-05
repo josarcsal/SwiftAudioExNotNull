@@ -1,6 +1,6 @@
 import XCTest
 import MediaPlayer
-@testable import SwiftAudioEx
+@testable import SwiftAudioExNotNull
 
 class AudioPlayerEventTests: XCTestCase {
     
